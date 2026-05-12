@@ -1,0 +1,17 @@
+[package]
+name = "truss-report"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Ahmed Merimi <https://github.com/CyberMer>"]
+license = "MIT"
+description = "A structured technical report template with requirement blocks, ADRs, trade-off matrices, and callouts."
+repository = "https://github.com/CyberMer/truss-report"
+keywords = ["report", "technical", "requirements", "adr", "engineering"]
+categories = ["report"]
+compiler = "0.13.0"
+exclude = ["examples/", "Justfile", ".github/"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"

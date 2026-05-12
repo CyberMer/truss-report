@@ -1,0 +1,12 @@
+# Files listed here are ignored by the Typst web app's "Package project"
+# feature when bundling a package for publication. This file does NOT affect
+# the Typst Universe submission flow (where you copy files into a fork of
+# typst/packages directly) — for that, use the `exclude` field in typst.toml.
+#
+# Kept here for completeness and in case you ever publish via the web app.
+
+examples/
+*.tar.gz
+.git/
+.github/
+Justfile
